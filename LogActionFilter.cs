@@ -3,6 +3,9 @@ using System.Diagnostics;
 using System.Web.Mvc;
 using System.Web.Routing;
 
+//OutputCache: caches the output of a controller action for a specified amount of time
+//HandleError: handles errors raised when a controller action executes
+//Authorize: enables you to restrict access to a particular user or role 
 namespace MvcApplication1.ActionFilters
 {
      public class LogActionFilter : ActionFilterAttribute
